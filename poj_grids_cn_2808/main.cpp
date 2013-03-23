@@ -10,6 +10,7 @@ int main()
     bool* trees = new bool[n];
     for(int i=0;i<n;i++)
         trees[i] = true;
+
     int m;
     cin >> m;
     while(m--)
@@ -22,6 +23,7 @@ int main()
             x++;
         }
     }
+
     int sum = 0;
     for(int i=0;i<n;i++)
     {
